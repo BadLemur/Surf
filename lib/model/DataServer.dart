@@ -11,7 +11,7 @@ class DataServer {
     return new DataServer(
       name: parsedJson['name'],
       email: parsedJson['email'],
-      job: parsedJson['phone'],
+      job: parsedJson['company']['name'],
     );
   }
 }
